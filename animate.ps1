@@ -1,7 +1,12 @@
 $request = [System.Net.HttpWebRequest]::Create("http://parrot.live");
 
+function Handle-CurlCommand {
+    param (
+        [string]$command
+    )
+
+    if ($command -eq "Curl pug.live") {
 While ($true){
-cls
 Echo:              _____
 Echo:             /     \
 Echo:           /         \
@@ -148,4 +153,7 @@ Echo:                               `._________`-.   `.   `.___
 Echo:                                             SSt  `------'`
 
 start-sleep -milliseconds 5
+}
+}
+}
 }
