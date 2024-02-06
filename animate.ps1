@@ -1,4 +1,4 @@
-$request = [System.Net.HttpWebRequest]::Create("http://parrot.live");
+$request = [System.Net.HttpWebRequest]::Create("http://pug.live");
 
 function Handle-CurlCommand {
     param (
